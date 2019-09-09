@@ -1,0 +1,25 @@
+.navbar{
+    height: auto;
+    position: relative;
+    z-index: 999;
+    box-shadow: 0 6px 6px gray;
+    padding: 0;
+margin: 0;
+}
+.navbar-toggler {
+    height: inherit;
+    
+}
+.navbar-collapse{
+text-align: center;    
+
+}
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    height: 100%;
+}

@@ -1,0 +1,25 @@
+
+
+/* Main */
+
+	#main {
+		background-color: white;
+
+		> * {
+			border-top: solid 1px _palette(border);
+			color: _palette(bg-alt);
+
+			&:first-child {
+				border-top: 0;
+			}
+
+			@include inner;
+		}
+
+		&.alt {
+			background-color: transparent;
+			border-bottom: solid 1px _palette(border);
+		}
+		
+		
+	}

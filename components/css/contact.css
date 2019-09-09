@@ -1,0 +1,32 @@
+#contact {
+    width: 100%;
+   
+}
+.inner {
+    display: flex;
+
+}
+#name, #email, #message {
+    border: 1px solid black;
+}
+#message {
+    height: 175px;
+}
+.actions {
+    display: flex;
+    justify-content: center;
+
+}
+.actions > li {
+    padding: 1em;
+}
+.split {
+    display: flex;
+}
+.contact-method {
+    padding: 1.5em;
+    margin: 0 auto;
+}
+.contact-method > h3 {
+    font-size: 2em;
+}
