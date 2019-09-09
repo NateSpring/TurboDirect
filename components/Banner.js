@@ -9,7 +9,7 @@ const Banner = (props) => (
             <div className="content">
                 <p>Turbocharging is a technology perfectly in tune with 21st century living. From microcars and family SUVs to heavy-duty trucks and monster off-highway machines, Garrett turbos boost the world’s auto fleet, helping create a more energy efficient future.</p>
                 <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Browse Products</a></li>
+                    <li><a href="/shop" className="button next scrolly">Browse Products</a></li>
                 </ul>
             </div>
         </div>
